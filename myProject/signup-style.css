@@ -1,0 +1,96 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none; 
+ }
+ body{
+     font-family: 'Raleway' , sans-serif;
+     background: #000;
+ }
+ .background{
+     background: url(image1.jpg) no-repeat;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     margin-left: 0%;
+     flex-direction: row;
+     align-items: center;
+ }
+ .text{
+     margin: 45vh;
+     flex: 1;
+ }
+ .text{
+     margin-left: 10%;
+     font-weight: 300px;
+ }
+ .box{
+     margin-left: 25%;
+     margin-top: 33vh;
+     flex: 1;
+     
+ }
+ .text h1{
+     font-size: 50px;
+     color: rgb(85, 144, 161);
+     font-weight: 500;
+ }
+ .text p{
+     font-size: 15px;
+     color: #fff;
+     font-weight: 300;
+ }
+ .text p a{
+     color: #fff;
+     font-weight: 700;
+ }
+ .form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    margin-left: 220px;
+ }
+ input{
+     margin: 20px 0;
+     padding: 10px;
+     background: transparent;
+     border: none;
+    border-radius: 50px;
+     outline: none;
+     color: #fff;
+     font-family: 'Raleway' , sans-serif;
+ }
+ .password, .username, .fullname, .email{
+ border-bottom: 1px solid #fff;
+ } 
+ .button{
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+     /* background: transparent;
+     border: 1px solid #fff;
+     color: #fff;  
+     font-size: 18px; */
+ }
+ .button:hover{
+     background: #fff;
+     color: #000;
+ }
+ .footer{
+    background-color: black;
+    border-radius: 0px;
+    height: 150px;
+    text-align: center;
+}
